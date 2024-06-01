@@ -42,7 +42,7 @@ This project includes the following features:
 Here are some screenshots of the project:
 
 - Homepage
-  ![Homepage](assets/images/homepage.png)
+  ![Homepage](screenshots/acc.png)
   *Caption: Homepage*
 
 - Features Section
