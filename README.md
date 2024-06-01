@@ -36,6 +36,7 @@ This project includes the following features:
 - Responsive design: Works well on various screen sizes.
 - Interactive elements: Engaging user experience.
 - Modern UI: Sleek and visually appealing design.
+- the usage of EMAIL.JS to send emails.
 
 ## Screenshots
 
@@ -45,10 +46,24 @@ Here are some screenshots of the project:
   ![Homepage](screenshots/acc.png)
   *Caption: Homepage*
 
-- Features Section
-  ![Features Section](assets/images/features.png)
-  *Caption: Features Section*
+- About us Section
+  ![Features Section](screenshots/about.png)
+  *Caption: About us Section*
 
+- Services Section
+  ![Features Section](screenshots/popular.png)
+   ![Features Section](screenshots/popular2.png)
+  *Caption: Services Section*
+
+- Testimonial Section
+  ![Features Section](screenshots/testimonoi.png)
+  *Caption: Testimonial Section*
+
+- footer
+  ![Features Section](screenshots/footer.png)
+  *Caption: footer Section*
+
+-
 ## Video Demo
 
 Here's a video demonstration of the project:
@@ -67,15 +82,13 @@ Contributions are welcome! To contribute to this project, follow these steps:
 4. Push to the branch (`git push origin feature/awesome-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For any questions or feedback, feel free to contact me at [your.email@example.com](mailto:your.email@example.com).
+For any questions or feedback, feel free to contact me at [dhouibyoussef222@gmail.com](mailto:dhouibyoussef222@gmail.com).
 
-Project Link: [https://github.com/your-username/your-project](https://github.com/your-username/your-project)
+Project Link: https://github.com/youssefdhouib/cercina_company_landing-page
+
 
 
 
