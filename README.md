@@ -76,7 +76,7 @@ Here's a video demonstration of the project:
 ## Contact
 
 For any questions or feedback, feel free to contact me at [dhouibyoussef222@gmail.com](mailto:dhouibyoussef222@gmail.com).<br>
-Linkdin profile : www.linkedin.com/in/youssef-dhouib-yd2003
+Linkdin profile : www.linkedin.com/in/youssef-dhouib-yd2003 <br>
 Project Link: https://github.com/youssefdhouib/cercina_company_landing-page
 
 
