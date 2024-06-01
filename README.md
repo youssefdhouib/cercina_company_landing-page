@@ -70,12 +70,7 @@ Here are some screenshots of the project:
 ## Video Demo
 
 Here's a video demonstration of the project:
-<div
-<video width="640" height="360" controls>
-  <source src="video/cercinademo.mp4" type="video/mp4">
-  
-</video>
-</div>
+[![Video Demo](https://img.youtube.com/vi/nVTRz93AxVU/maxresdefault.jpg)](https://youtu.be/nVTRz93AxVU)
 
 
 ## Contact
