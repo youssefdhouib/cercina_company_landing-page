@@ -70,6 +70,7 @@ Here are some screenshots of the project:
 ## Video Demo
 
 Here's a video demonstration of the project:
+https://www.youtube.com/watch?v=nVTRz93AxVU&feature=youtu.be&sttick=0
 [![Video Demo](https://img.youtube.com/vi/nVTRz93AxVU/maxresdefault.jpg)](https://youtu.be/nVTRz93AxVU)
 
 
