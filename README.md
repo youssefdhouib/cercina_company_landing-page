@@ -1,5 +1,5 @@
 # Project deploy link
-(https://cercina.netlify.app/)
+https://cercina.netlify.app/
 
 ## Description
 
