@@ -73,11 +73,10 @@ Here's a video demonstration of the project:
 <div
 <video width="640" height="360" controls>
   <source src="video/cercinademo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  
 </video>
 </div>
 
-Replace `your_video_id` in the URL with the ID of your YouTube video.
 
 ## Contact
 
