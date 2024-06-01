@@ -5,15 +5,6 @@ Cercina company
 
 I developed a landing page web solution for a ship supply company, using React.js for structure and functionality. The site, built to the client's specifications, features a user-friendly form for data input. I integrated Email.js for automated email notifications upon form submission, ensuring efficient communication. I used some animations, including typing effects to enhance user interaction. Tailwind CSS was used for styling, and router for smooth navigation.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Installation
 
