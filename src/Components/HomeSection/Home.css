@@ -1,0 +1,256 @@
+
+
+
+/* Default styles for larger screens */
+.slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.slider img {
+  width: 100%;
+  
+  height: 720px;
+  object-fit: cover;
+}
+
+.slide-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  /* Prevent text from breaking */
+  min-width: 100%; /* Adjust the maximum width as needed */
+  /* Hide overflow text */
+ padding-left: 30px;
+padding-right: 22px;
+z-index: 2;
+
+}
+
+
+
+
+.slide-text h1 {
+  font-size: 75px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  color:rgba(255, 255, 255, 0.993);
+  text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.51);
+}
+
+.slide-text p {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #d7e0f0e8; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.323);
+  text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.51);
+}
+
+.cercina{
+ 
+  font-size: 77px;
+  text-shadow: 2px 5px 18px rgba(0, 0, 0, 0.51);
+}
+.cta-button {
+  background-color: #4170dfda;
+  color: #fff;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.cta-button a {
+  color: #fff;
+}
+.cta-button:hover {
+  background-color: #5d9dd1;
+}
+/* Home.css */
+
+
+/* Create a semi-transparent overlay */
+.slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 1, 5, 0.068);
+  z-index: 1;
+}
+
+/* Apply a background image to the slide */
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.control-btn .next {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  right: 5%;
+  display: none;
+}
+
+.control-btn .prev {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  left: 5%;
+  display: none;
+}
+
+/* Add this CSS for the message div */
+.message-div {
+  background-color: #81d188; /* Green background color */
+  color: #ffffff; /* White text color */
+  padding: 30px; /* Padding around the message */
+  position: relative; /* Relative position within the container */
+  margin: 20px; /* Distance from the top of the form */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Shadow for the div */
+  animation: slideInDown 0.5s ease-in-out; /* Animation for sliding in */
+}
+
+/* Keyframes for the slide-in animation */
+@keyframes slideInDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .slider img {
+    height: 65vh;
+  }
+
+  .slide-text h1 {
+    font-size: 36px;
+    
+  }
+  .cercina{
+    
+    font-size: 36px;}
+
+  .slide-text p {
+    font-size: 18px;
+  }
+
+  .cta-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    white-space: nowrap;
+  }
+
+  .slide-form {
+    /* Your responsive styles for the form go here */
+  }
+}
+
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+@media screen and (max-width: 228px) {
+  .slider{
+    display: none;
+  }
+}
+
+/*--------form-----------*/
+.slide-form h2 {
+  margin-top: 30px;
+}
+.placehold{
+  padding-left: 13px;
+  padding-top: 10px;
+  color:rgba(0, 0, 0, 0.938);
+  font-family:'Times New Roman', Times, serif;
+ 
+}
+.for{
+  display: flex;
+flex-direction: column;
+gap: 7px;
+}
+.slide-form {
+
+ 
+  display: flex;
+  margin-top: 50px;
+  background-color: rgba(175, 174, 174, 0.514);
+  width: 35%;
+  height:fit-content;
+  border-radius: 10px;
+  color: white;
+  padding-bottom: 40px;
+}
+.slide-form input {
+  margin-top: 20px;
+}
+.slide-form .flex_space input:nth-child(odd) {
+  margin-right: 20px;
+}
+.slide-form .submit {
+  background: #31b675;
+  color: white;
+
+}
+
+ .submit:hover{
+  transform: scale(1.05); /* Increase the size a little on hover */
+  background-color: #378ce7;
+  }
+/*--------form-----------*/
+@media screen and (max-width: 768px) {
+  .slider {
+    height: 65vh;
+    
+  }
+  .homeabout{
+    margin-top:-80px
+  }
+  .slide img {
+    height: 65vh;
+  }
+  .slide-form {
+    position: relative; /* Change to relative positioning */
+    top: auto;
+    right: auto;
+    width: 90%; /* Adjust the width for smaller screens */
+    margin: 20px auto; /* Center the form horizontally */
+    height: auto; /* Let the height adjust automatically */
+    padding: 20px; /* Add some padding to the form */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../../public/Images/aze.jpg);
+  }
+}

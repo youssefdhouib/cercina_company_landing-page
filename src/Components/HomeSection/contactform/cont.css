@@ -1,0 +1,33 @@
+.contbox{
+ 
+ text-align:center ;
+display:flex;
+flex-direction: column;
+
+margin-bottom: 90px;
+}
+.boxs{
+   align-self: center;
+   box-shadow: 1px 5px 8px 4px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    width: 70%;
+
+    z-index: 2;
+    background-color: rgba(251, 255, 252, 0.932);
+    background: #f8f8fcec;
+    border-radius: 15px;
+    margin-top: 8px;
+    padding-bottom: 50px;
+   
+}
+.cont-desc{
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: rgb(114, 145, 145);
+}
+
+@media screen and (max-width: 550px) {
+    .boxs{
+      width:85%
+    }
+  }

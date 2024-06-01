@@ -1,0 +1,165 @@
+
+.containergri{
+  max-width: 90%;
+  margin:70px auto;
+
+}
+
+.containergri .image-container{
+  columns:3 250px;
+  gap:20px;
+
+
+}
+
+.containergri .image-container img{
+  margin-bottom: 10px;
+  border-radius: 50px;
+  width: 90%; 
+  height: 260px;
+  border: 2.5px solid #5a7dcff1;
+  padding: 10px;
+}
+.containergri .image-container img:hover{
+  transform: translateY(-10px);;
+  transition: 400ms;
+}
+
+.aboutCard h4 {
+  color: #3669e0f1;
+
+}
+
+.aboutCard{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.aboutCard h1 {
+  font-size: 45px;
+  
+}
+.aboutCard  span {
+  font-weight:normal;
+color: #4170df;
+}
+.aboutCard p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 24px;
+}
+.aboutCard .row1 {
+  padding-right: 30px;
+  min-width:60%;
+}
+.aboutCard .image {
+position: relative;
+min-width:40%
+}
+.about-img{
+  width:100%;
+}
+.aboutCard .control-btn button {
+  left: 40%;
+}
+.aboutCard .control-btn i {
+  font-size: 20px;
+}
+.aboutCard .image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 89.5%;
+  height: 44vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+.aboutCard .image::before {
+  content: "";
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 70%;
+  height: 30px;
+  border-radius: 5px;
+  z-index: -1;
+  display: none;
+}
+.aboutCard .control-btn::before {
+  content: "";
+  position: absolute;
+  bottom: 2%;
+  left: 15%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+  z-index: -1;
+  display: none;
+}
+.features .flex_space {
+  flex-direction: row-reverse;
+}
+.features img {
+  width: 90%;
+}
+.features .control-btn,
+.features .image::after,
+.features .image::before,
+.features .control-btn::before {
+  display: none;
+}
+.features h1 {
+  font-weight: bold;
+}
+.features h1 span {
+  color: #31b675;
+}
+.aboutCard h4 {
+   
+  
+  font-size: 30px;
+
+ }
+ .aq{
+  display: none;  
+ }
+
+@media screen and (max-width: 1050px) {
+
+  .aboutCard {
+    flex-direction: column;
+    
+  }
+  .row1{
+    margin-top: -40px;
+  
+ 
+  }
+  .aboutCard .image::after,
+  .aboutCard .image::before,
+  .aboutCard .control-btn::before {
+    display: none;
+  }
+  .aboutCard .row {
+    width: 100%;
+  }
+  .aboutCard .image {
+    margin-top: 50px;
+  }
+  .aboutCard img {
+    width: 100%;
+  }
+  .aboutCard h4 {
+  display: none;
+  font-size: 40px;
+  white-space: nowrap;
+  }
+  .aq{
+    display: flex;
+    flex-direction: column;
+  }
+}

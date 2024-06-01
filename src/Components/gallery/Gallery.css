@@ -1,0 +1,144 @@
+.gallery {
+  margin-bottom: 50px;
+}
+.gallery img {
+  transition: 0.5s;
+  width: 100%;
+  height: 210px;
+  border-radius: 50%;
+  margin-left: px;
+  border:1px solid rgb(109, 81, 81);
+}
+.gallery .items {
+  padding-top:30px ;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap:50px
+}
+.gallery h3 {
+  margin: 10px 0 10px 0;
+  font-weight: 400;
+}
+.gallery .img {
+  position: relative;
+
+  width: 50%; /* Adjust as needed */
+  max-width: 205px; /* Set a maximum width if desired */
+  margin: 10px auto; /* Center the element */
+
+
+
+}
+
+.gallery i {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  z-index: 5;
+  font-size: 40px;
+  color: white;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  margin-left: -6px;
+  display: none;
+}
+
+/* span {
+  color: grey;
+  font-weight: 300;
+  font-size: 15px;
+} */
+p{
+  color: #646866;
+  font-weight: 500;
+}
+
+
+.gallery .items:hover img {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.gallery .items:hover i,
+.gallery .items:hover .img::after,
+.gallery .items:hover .img::before {
+  opacity: 1;
+  cursor: pointer;
+}
+.popup {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 8;
+}
+
+.hide {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.popup-content {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+.popup button {
+  background-color: #fff;
+  padding: 20px 20px;
+  color: #000;
+  position: absolute;
+  top: -7%;
+  right: -34.5%;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .gallery .container {
+    max-width: 100%;
+  }
+  .gallery .img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .gallery .img::after {
+    width: 300px;
+    height: 180px;
+  }
+  .popup-content {
+    padding: 50px;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+  }
+  .popup button {
+    background-color: #fff;
+    padding: 20px 20px;
+    color: #000;
+    position: absolute;
+    top: -2%;
+    right: 6.5%;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gallery .img::before {
+    display:none
+  }
+  .gallery .img::after {
+    display:none
+  }
+  
+}
