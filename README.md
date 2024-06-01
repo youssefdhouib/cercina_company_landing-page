@@ -71,7 +71,7 @@ Here are some screenshots of the project:
 
 Here's a video demonstration of the project:
 
-[![Video Demo](video_demo/Cercina Company — Mozilla Firefox 2024-06-01 14-31-55 %28online-video-cutter.com%29.mp4)](video_demo/Cercina Company — Mozilla Firefox 2024-06-01 14-31-55 %28online-video-cutter.com%29.mp4)
+[![Video Demo](video/cercinademo.mp4)
 
 
 Replace `your_video_id` in the URL with the ID of your YouTube video.
