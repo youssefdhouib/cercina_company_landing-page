@@ -75,17 +75,6 @@ Here's a video demonstration of the project:
 
 Replace `your_video_id` in the URL with the ID of your YouTube video.
 
-## Contributing
-
-Contributions are welcome! To contribute to this project, follow these steps:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/awesome-feature`)
-3. Commit your changes (`git commit -m 'Add awesome feature'`)
-4. Push to the branch (`git push origin feature/awesome-feature`)
-5. Open a Pull Request
-
-
 ## Contact
 
 For any questions or feedback, feel free to contact me at [dhouibyoussef222@gmail.com](mailto:dhouibyoussef222@gmail.com).
