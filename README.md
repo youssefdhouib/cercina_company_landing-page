@@ -19,6 +19,63 @@ cd cercina_company_landing-page
 
 # Install dependencies
 npm install
+```
+## Usage
+
+To use the project, follow these steps:
+
+1. Clone the repository
+2. Install dependencies
+3. Start the development server
+4. Open the project in your browser
+
+## Features
+
+This project includes the following features:
+
+- Responsive design: Works well on various screen sizes.
+- Interactive elements: Engaging user experience.
+- Modern UI: Sleek and visually appealing design.
+
+## Screenshots
+
+Here are some screenshots of the project:
+
+- Homepage
+  ![Homepage](assets/images/homepage.png)
+  *Caption: Homepage*
+
+- Features Section
+  ![Features Section](assets/images/features.png)
+  *Caption: Features Section*
+
+## Video Demo
+
+Here's a video demonstration of the project:
+
+[![Video Demo](https://img.youtube.com/vi/your_video_id/maxresdefault.jpg)](https://www.youtube.com/watch?v=your_video_id)
+
+Replace `your_video_id` in the URL with the ID of your YouTube video.
+
+## Contributing
+
+Contributions are welcome! To contribute to this project, follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/awesome-feature`)
+3. Commit your changes (`git commit -m 'Add awesome feature'`)
+4. Push to the branch (`git push origin feature/awesome-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or feedback, feel free to contact me at [your.email@example.com](mailto:your.email@example.com).
+
+Project Link: [https://github.com/your-username/your-project](https://github.com/your-username/your-project)
 
 
 
